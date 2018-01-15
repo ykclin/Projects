@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<msg>
+    <rvHeader>
+        <source>
+            <application>B2-MES</application>
+            <msgBus>TibRv</msgBus>
+            <domain>B2</domain>
+            <address>QA.3W300.DEMO.XMLCOMMSRV.&gt;</address>
+        </source>
+        <destination>
+            <application>B2-CDS</application>
+            <msgBus>TibRv</msgBus>
+            <domain>B2</domain>
+            <address>QA.3W300.DEMO.B2CDS.&gt;</address>
+        </destination>
+    </rvHeader>
+    <msgHeader>
+        <srvAddr />
+        <regAddr />
+        <msgOwner>中文</msgOwner>
+        <srvMethod name="ykc">TestSetValue</srvMethod>
+        <srvId>FWSRVdefault</srvId>
+        <timeStamp>&amp;</timeStamp>
+        <timeOut />
+        <txId>1</txId>
+        <locale>EN</locale>
+        <retCode>0</retCode>
+        <retMsg />
+    </msgHeader>
+    <msgBody>
+        <userId>rvtester</userId>
+        <costCenter>1111</costCenter>
+        <ticketId>22222</ticketId>
+        <module>CMP</module>
+        <txnComment>B1</txnComment>
+        <timeStamp>20170707</timeStamp>
+        <createPartsNo>2</createPartsNo>
+        <createParts>
+            <partNo>60057812</partNo>
+            <equipmentId>BILEI01</equipmentId>
+            <partQty>2</partQty>
+            <description>frankcreate</description>
+            <readingType>RFTM</readingType>
+            <readingSpec>100</readingSpec>
+        </createParts>
+        <createParts>
+            <partNo>1</partNo>
+            <equipmentId>2</equipmentId>
+            <partQty>3</partQty>
+            <description>4</description>
+            <readingType>5</readingType>
+            <readingSpec>6</readingSpec>
+        </createParts>
+    </msgBody>
+</msg>

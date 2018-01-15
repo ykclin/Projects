@@ -1,0 +1,25 @@
+<msgBody> 
+       <userId>rvtester</userId>
+       <costCenter>1111</costCenter>
+       <ticketId>22222</ticketId>
+       <module>CMP</module>
+       <txnComment>B1</txnComment>
+       <timeStamp>20170707</timeStamp>
+	   <createPartsNo>2</createPartsNo>
+ <createParts>
+       <partNo>60057812</partNo>
+       <equipmentId>BILEI01</equipmentId>
+       <partQty>2</partQty>
+       <description>frankcreate</description>
+       <readingType>RFTM</readingType>
+       <readingSpec>100</readingSpec>
+ </createParts>
+ <createParts>
+       <partNo>1</partNo>
+       <equipmentId>2</equipmentId>
+       <partQty>3</partQty>
+       <description>4</description>
+       <readingType>5</readingType>
+       <readingSpec>6</readingSpec>
+ </createParts>  
+ </msgBody> 
