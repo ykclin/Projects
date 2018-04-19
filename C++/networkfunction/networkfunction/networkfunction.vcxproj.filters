@@ -13,10 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="netfunction">
+      <UniqueIdentifier>{d6aff42f-4ebf-4c6d-b3c6-f015cc250f3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function">
+      <UniqueIdentifier>{08c68bae-4e1a-459c-83d3-7de6b47318f9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="netfunction\netiofun.cpp">
+      <Filter>netfunction</Filter>
+    </ClCompile>
+    <ClCompile Include="netfunction\news_sender.cpp">
+      <Filter>netfunction</Filter>
+    </ClCompile>
+    <ClCompile Include="function\function.cpp">
+      <Filter>function</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="netfunction\netiofun.h">
+      <Filter>netfunction</Filter>
+    </ClInclude>
+    <ClInclude Include="netfunction\news_sender.h">
+      <Filter>netfunction</Filter>
+    </ClInclude>
+    <ClInclude Include="function\function.h">
+      <Filter>function</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

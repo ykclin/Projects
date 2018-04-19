@@ -1,0 +1,29 @@
+﻿生成启动时间为 2/5/2018 6:46:37 PM。
+     1>项目“C:\Users\kyangx088571\Desktop\software\git\Projects\C++\networkfunction\networkfunction\networkfunction.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\networkfunction.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kyangx088571\Desktop\software\git\Projects\C++\networkfunction\Debug\networkfunction.exe" /INCREMENTAL /NOLOGO ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\networkfunction.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kyangx088571\Desktop\software\git\Projects\C++\networkfunction\Debug\networkfunction.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kyangx088571\Desktop\software\git\Projects\C++\networkfunction\Debug\networkfunction.lib" /MACHINE:X86 Debug\networkfunction.exe.embed.manifest.res
+         Debug\function.obj
+         Debug\main.obj
+         Debug\netiofun.obj
+         Debug\news_sender.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\networkfunction.exe.embed.manifest" /manifest Debug\networkfunction.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         networkfunction.vcxproj -> C:\Users\kyangx088571\Desktop\software\git\Projects\C++\networkfunction\Debug\networkfunction.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\networkfunction.unsuccessfulbuild”。
+         正在对“Debug\networkfunction.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\kyangx088571\Desktop\software\git\Projects\C++\networkfunction\networkfunction\networkfunction.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.28

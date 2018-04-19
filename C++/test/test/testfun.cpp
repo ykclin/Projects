@@ -51,3 +51,33 @@ bool BigEnd()
 	printf("it is small end\n");//低位地址存低位字节 0x34 0x12
 	return false;
 }
+
+string int2string(int num)
+{
+	std::stringstream ss;
+	string str;
+	ss<<num;
+	ss>>str;
+	//str.sprintf("%d",num);
+	return str;
+}
+
+string dec2bin(unsigned int num)
+{
+	if(num == 0)
+	{
+		return "0";
+	}
+	string strBin;
+	while(num > 0)
+	{
+		int tmp = num%2;
+		string strTmp = int2string(tmp);
+		strBin += strTmp;
+		num = num/2;
+	}
+	
+	reverse(strBin.begin(),strBin.end());
+	
+	return strBin;
+}

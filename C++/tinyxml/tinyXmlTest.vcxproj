@@ -119,6 +119,9 @@
   <ItemGroup>
     <ClCompile Include="mytest.cpp" />
     <ClCompile Include="myxmlmessage.cpp" />
+    <ClCompile Include="testcode\testdemo.cpp" />
+    <ClCompile Include="testcode\testmyXmlMessage.cpp" />
+    <ClCompile Include="testcode\testtinyxml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="tinyxml_lib.vcxproj">
@@ -128,6 +131,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myxmlmessage.h" />
+    <ClInclude Include="testcode\testdemo.h" />
+    <ClInclude Include="testcode\testmyXmlMessage.h" />
+    <ClInclude Include="testcode\testtinyxml.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

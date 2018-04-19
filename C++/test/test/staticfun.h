@@ -1,3 +1,6 @@
+#ifndef STATICFUN_H
+#define STATICFUN_H
+
 #include<vector>
 using std::vector;
 struct demoStru
@@ -6,3 +9,6 @@ struct demoStru
 	int b;
 };
 //extern static vector<demoStru>& GetDemoVec();
+
+
+#endif

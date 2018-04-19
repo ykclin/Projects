@@ -78,13 +78,17 @@
     <ClCompile Include="baseclass.cpp" />
     <ClCompile Include="driveclass.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="singleclass.cpp" />
     <ClCompile Include="staticfun.cpp" />
     <ClCompile Include="testfun.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="baseclass.h" />
+    <ClInclude Include="List.h" />
+    <ClInclude Include="singleclass.h" />
     <ClInclude Include="staticfun.h" />
     <ClInclude Include="testfun.h" />
+    <ClInclude Include="Tree.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

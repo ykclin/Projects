@@ -1,0 +1,35 @@
+﻿生成启动时间为 1/18/2018 3:32:57 PM。
+     1>项目“C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\tinyXmlTest.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\tinyXmlTest.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D TUNE /D _CRT_SECURE_NO_WARNINGS /D _VC80_UPGRADE=0x0600 /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\\" /Fd"C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\vc100.pdb" /FR"C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\\" /Gd /TP /analyze- /errorReport:prompt mytest.cpp testcode\testtinyxml.cpp
+         testtinyxml.cpp
+         mytest.cpp
+         正在生成代码...
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\tinyXmlTest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\tinyXmlTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\tinyXmlTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\tinyXmlTest.lib" /MACHINE:X86 C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\tinyXmlTest.exe.embed.manifest.res
+         C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\mytest.obj
+         C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\myxmlmessage.obj
+         C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\testdemo.obj
+         C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\testmyXmlMessage.obj
+         C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\testtinyxml.obj
+         C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\Debugtinyxml\tinyxml.lib
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\tinyXmlTest.exe.embed.manifest" /manifest C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\tinyXmlTest.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         tinyXmlTest.vcxproj -> C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\tinyXmlTest.exe
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\tinyXmlTest.bsc" C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\mytest.sbr C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\myxmlmessage.sbr C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\testdemo.sbr C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\testmyXmlMessage.sbr C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\testtinyxml.sbr
+       FinalizeBuildStatus:
+         正在删除文件“C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\tinyXmlTest.unsuccessfulbuild”。
+         正在对“C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\DebugtinyXmlTest\tinyXmlTest.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\kyangx088571\Desktop\software\git\Projects\C++\tinyxml\tinyXmlTest.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.88

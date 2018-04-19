@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="mytest.cpp" />
+    <ClCompile Include="myxmlmessage.cpp" />
+    <ClCompile Include="testcode\testtinyxml.cpp">
+      <Filter>testcode</Filter>
+    </ClCompile>
+    <ClCompile Include="testcode\testmyXmlMessage.cpp">
+      <Filter>testcode</Filter>
+    </ClCompile>
+    <ClCompile Include="testcode\testdemo.cpp">
+      <Filter>testcode</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myxmlmessage.h" />
+    <ClInclude Include="testcode\testtinyxml.h">
+      <Filter>testcode</Filter>
+    </ClInclude>
+    <ClInclude Include="testcode\testmyXmlMessage.h">
+      <Filter>testcode</Filter>
+    </ClInclude>
+    <ClInclude Include="testcode\testdemo.h">
+      <Filter>testcode</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="testcode">
+      <UniqueIdentifier>{bf2cfcbd-7c01-4b5f-a3da-f6345436c859}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

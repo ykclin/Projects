@@ -75,7 +75,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="function\function.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="netfunction\netiofun.cpp" />
+    <ClCompile Include="netfunction\news_sender.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="function\function.h" />
+    <ClInclude Include="netfunction\netiofun.h" />
+    <ClInclude Include="netfunction\news_sender.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
