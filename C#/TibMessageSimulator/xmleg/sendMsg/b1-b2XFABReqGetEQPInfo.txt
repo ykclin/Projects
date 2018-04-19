@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msg>
+	<rvHeader>
+		<source>
+			<application>B1-MES</application>
+			<msgBus>TibRv</msgBus>
+			<domain>B2</domain>
+			<address>XIAN.AMATQA.INT.B1MES.></address>
+		</source>
+		<destination>
+			<application>B2-MES</application>
+			<msgBus>TibRv</msgBus>
+			<domain>B2</domain>
+			<address>FWSRVdefault</address>
+		</destination>
+		<replyApplication>
+			<addressNo>1</addressNo>
+			<address applicationName="B2-EAP" seq="1">XA.DEV.MYINT.B2EAP.></address>
+		</replyApplication>
+	</rvHeader>
+	<msgHeader>
+		<srvAddr>
+		</srvAddr>
+		<regAddr>
+		</regAddr>
+		<msgOwner>
+		</msgOwner>
+		<srvMethod>XFABReqGetEQPInfo</srvMethod>
+		<srvId>FWSRVdefault</srvId>
+		<timeStamp>
+		</timeStamp>
+		<timeOut>
+		</timeOut>
+		<txId>1</txId>
+		<locale>EN</locale>
+		<retCode>0</retCode>
+		<retMsg>
+		</retMsg>
+	</msgHeader>
+	<msgBody>
+		<ruleType>primer</ruleType>
+		<equipmentId>UPAMI02</equipmentId>
+		<userId>rvtester</userId>
+		<fromFAB>
+		</fromFAB>
+		<toFAB>B2</toFAB>
+		<txnComment>HELLOHELLO01</txnComment>
+	</msgBody>
+</msg>

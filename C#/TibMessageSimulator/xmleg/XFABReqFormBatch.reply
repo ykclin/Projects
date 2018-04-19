@@ -1,0 +1,17 @@
+ <msgBody>
+        <ruleType>Secondy</ruleType>
+      <equipmentId>121</equipmentId>
+      <lotListNo>2</lotListNo>
+      <lotList>
+        <lotId>LOT01</lotId>
+        <result>000</result>
+        <errorDesc>PASS</errorDesc>
+      </lotList>
+      <lotList>
+        <lotId>LOT02</lotId>
+        <result>111</result>
+        <errorDesc>ERROR</errorDesc>
+      </lotList>
+      <result>0</result>
+      <errorDesc>qqqqq</errorDesc>
+</msgBody>

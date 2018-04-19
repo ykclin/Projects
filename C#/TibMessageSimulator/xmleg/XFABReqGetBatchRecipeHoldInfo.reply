@@ -1,0 +1,21 @@
+<msgBody>
+<ruleType>Secondary</ruleType>
+<equipmentId>UDHOX01</equipmentId>
+<batchListNo>1</batchListNo>
+<batchList>
+   <batchId>UDHOX01.20171102142255</batchId>
+   <recipe>0800WGO0045</recipe>
+   <foupListNo>2</foupListNo>
+   <foupList>
+    <foupId>EFP11488</foupId>
+ </foupList>
+ <foupList>
+    <foupId>EFP23634</foupId>
+ </foupList>
+ <totalWaferQty>25</totalWaferQty>
+   <status>CREATE</status>
+</batchList>
+<result>0</result>
+<errorDesc/>
+<txnComment></txnComment>
+</msgBody>

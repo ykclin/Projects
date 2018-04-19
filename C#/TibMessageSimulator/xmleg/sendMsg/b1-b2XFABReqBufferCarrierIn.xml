@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<msg>
+	<rvHeader>
+		<source>
+			<application>B1-MES</application>
+			<msgBus>TibRv</msgBus>
+			<domain>B2</domain>
+			<address>B2.MIT.DEV.B2EAP.></address>
+		</source>
+		<destination>
+			<application>B2-MES</application>
+			<msgBus>TibRv</msgBus>
+			<domain>B2</domain>
+			<address>FWSRVdefault</address>
+		</destination>
+		<replyApplication>
+			<addressNo>1</addressNo>
+			<address applicationName="B2-EAP" seq="1">B2.MIT.DEV.B2EAP.></address>
+		</replyApplication>
+	</rvHeader>
+	<msgHeader>
+		<srvAddr>
+		</srvAddr>
+		<regAddr>
+		</regAddr>
+		<msgOwner>
+		</msgOwner>
+		<srvMethod>XFABReqBufferCarrierIn</srvMethod>
+		<srvId>FWSRVdefault</srvId>
+		<timeStamp>
+		</timeStamp>
+		<timeOut>
+		</timeOut>
+		<txId>1</txId>
+		<locale>EN</locale>
+		<retCode>0</retCode>
+		<retMsg>
+		</retMsg>
+	</msgHeader>
+	<msgBody>
+		<ruleType>Primer</ruleType>
+		<equipmentId>UDSCR01</equipmentId>
+		<userId>RVTester</userId>
+		<carrierListNo>1</carrierListNo>
+		<carrierList>
+			<shelfName>2</shelfName>
+			<carrierId>EFP00747</carrierId>
+		</carrierList>
+		<fromFAB>B1</fromFAB>
+		<toFAB>B2</toFAB>
+		<txnComment>XFABReqBufferCarrierIn123456789</txnComment>
+	</msgBody>
+</msg>

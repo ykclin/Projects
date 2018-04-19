@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="GB2312"?>
+<config>
+               <domain>B2</domain>
+               <loglevel>INFO</loglevel>
+			   <dqMode>FALSE</dqMode>
+			   <localMode>FALSE</localMode>
+			   <subject>QA.SMNC.MESMCS.CLIENT.></subject>
+               <transport daemon="tcp:7550" service="7500" network="">
+                   <cmQueue queueName="TestQueue1" schedulerWeight="1" schedulerHeartbeat="1" schedulerActivation="3.5"/>
+               </transport>
+			   <transport daemon="152.135.85.142:7550" service="7500" network="">
+                   <cmQueue queueName="TestQueue2" schedulerWeight="1" schedulerHeartbeat="1" schedulerActivation="3.5"/>
+               </transport>
+			   <transport daemon="152.135.85.144:7550" service="7500" network="">
+                   <cmQueue queueName="TestQueue3" schedulerWeight="1" schedulerHeartbeat="1" schedulerActivation="3.5"/>
+               </transport>
+               <contactApplications>
+                              <application name="MCS-Agent" acceptXmlByteSequence="no">
+                                 <transport daemon="tcp:7600" service="7600" network="" subject="QA.SMNC.MESMCS.MCSAGENT.>"/>
+                              </application>
+							  <application name="CDS-Gateway" acceptXmlByteSequence="no">
+                                 <transport daemon="tcp:7601" service="7601" network="" subject="QA.3W300.Demo.B2MES.>"/>
+                              </application>
+               </contactApplications>
+            
+</config >
+
+

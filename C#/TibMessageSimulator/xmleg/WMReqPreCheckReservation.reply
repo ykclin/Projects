@@ -1,0 +1,26 @@
+ <msgBody>
+        <ruleType>Secondy</ruleType>
+      <equipmentId>UMPTC01</equipmentId>
+	  <loadPortId>1</loadPortId>
+      <lotListNo>1</lotListNo>
+	  <lotList>
+	     <lotId>U06666</lotId>
+         <foupId>UFP8888</foupId>
+	     <toDoListNo>1</toDoListNo>
+		 <toDoList>
+		   <systemName>SEASON</systemName>
+           <paraItem>SEASONID</paraItem>
+	       <paraValue>SeasonId_222</paraValue>
+		 </toDoList>
+		 <toDoList>
+		   <systemName>SEASON</systemName>
+           <paraItem>SEASONID</paraItem>
+	       <paraValue>SeasonId_333</paraValue>
+		 </toDoList>
+         <result>1</result>
+        <errorDesc>ECMS CompareCritECPara failed. Error Desc: Some Parameter OOS</errorDesc>
+	  </lotList>
+	  
+      <result>1</result>
+      <errorDesc>EAP pre-check reservation result is fail: There are some lots not runnable in selected lotlist!</errorDesc>
+</msgBody>

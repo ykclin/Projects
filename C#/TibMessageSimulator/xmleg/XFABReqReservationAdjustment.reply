@@ -1,0 +1,9 @@
+<msgBody>
+<ruleType>Secondary</ruleType>
+<equipmentId>UWRCA04</equipmentId>
+<eqpListNo>0</eqpListNo>
+<loadPortListNo>0</loadPortListNo>
+<result>1</result>
+<errorDesc>testerrormsg</errorDesc>
+<txnComment>testerrorMsg</txnComment>
+</msgBody>

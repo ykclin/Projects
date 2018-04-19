@@ -1,0 +1,22 @@
+<msgBody>
+	<ruleType>Secondary</ruleType>
+	<result>0</result>
+	<errorDesc></errorDesc>
+	<foupId>ufp0987</foupId>
+	<foupType>1</foupType>
+	<foupStatus>1</foupStatus>
+	<foupState>1</foupState>
+	<foupCategory>1</foupCategory>
+	<owner>1</owner>
+	<location>1</location>
+	<capacityQty>1</capacityQty>
+	<componentQty>1</componentQty>
+	<createDate>1</createDate>
+	<cleanCount>2</cleanCount>
+	<lastCleanDate>3</lastCleanDate>
+	<statusTime>4</statusTime>
+	<vendorCode>5</vendorCode>
+	<modelNumber>6</modelNumber>
+	<locationTime>7</locationTime>
+	<txnComment>XFABReqGetFOUPInfo</txnComment>
+</msgBody>

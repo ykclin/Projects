@@ -1,0 +1,14 @@
+<msgBody>				
+	<retCode>0</retCode>		
+	<retMessage></retMessage>				
+	<eqpId>EQP001</eqpId>			
+	<ownerFAB>B1</ownerFAB>					
+	<sharable>TRUE</sharable>			
+	<currentMode></currentMode>			
+	<currentState></currentState>			
+	<eqpGroupListNo>1</eqpGroupListNo>			
+	<eqpGroupList>			
+		<eqpGroupId>EQPGROUP1</eqpGroupId>		
+	</eqpGroupList>							
+</msgBody>				
+		

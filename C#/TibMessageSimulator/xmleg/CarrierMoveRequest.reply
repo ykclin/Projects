@@ -1,0 +1,17 @@
+<msgBody>
+<UserId>FWADMIN</UserId>
+<CarrierId>UFP05563</CarrierId>
+<CarrierType>FOUP</CarrierType>
+<JobId>20180312185541-4015</JobId>
+<CurrentDeviceSite>B2</CurrentDeviceSite>
+<RequestedDeviceSite>B1</RequestedDeviceSite>
+<RequestedDeviceId>UMFGEQP</RequestedDeviceId>
+<RequestedLocationId>UMFGEQP_P1</RequestedLocationId>
+<RequestedZoneId />
+<SourceDeviceId>STOCKER01</SourceDeviceId>
+<SourceLocationId />
+<Priority>50</Priority>
+<ExpectedTime />
+<MoveTimeOut />
+<MESMessage />
+</msgBody>
